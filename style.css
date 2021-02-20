@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    width: 65%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+    font-weight:bold;
+    font-size: 43px;
+    text-align:left;
+    margin-top:15px;
+    
+}
+.desc p:nth-child(1){
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 0.035rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.desc p:nth-child(2){
+    font-weight:550;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.055rem;
+    padding-right: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+img{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.img-grid{
+    margin: 2rem auto;
+    padding: 2rem 0rem;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0rem 5rem;
+}
+.img-grid .img-div{
+    display: flex;
+    margin: auto;
+}
+.img-div p{
+    writing-mode: vertical-rl;
+}
+.img-grid div:nth-child(2){
+    padding: 64px 0px;
+}
+.img-grid div:nth-child(5){
+    padding: 64px 0px;
+}
+.role{
+    margin: 0rem .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 37px;
+    font-weight: 550;
+    letter-spacing: 0.09rem;
+    font-size: 15px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 75px;
+    font-weight: 550;
+    letter-spacing: 0.09rem;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.link{
+color: deeppink;
+text-decoration: gold;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    width: 65%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.heading{
+    font-weight:bold;
+    font-size: 43px;
+    text-align:left;
+    margin-top:15px;
+    
+}
+.desc p:nth-child(1){
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 0.035rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.desc p:nth-child(2){
+    font-weight:550;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.055rem;
+    padding-right: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+img{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.img-grid{
+    margin: 2rem auto;
+    padding: 2rem 0rem;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0rem 5rem;
+}
+.img-grid .img-div{
+    display: flex;
+    margin: auto;
+}
+.img-div p{
+    writing-mode: vertical-rl;
+}
+.img-grid div:nth-child(2){
+    padding: 64px 0px;
+}
+.img-grid div:nth-child(5){
+    padding: 64px 0px;
+}
+.role{
+    margin: 0rem .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 37px;
+    font-weight: 550;
+    letter-spacing: 0.09rem;
+    font-size: 15px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 75px;
+    font-weight: 550;
+    letter-spacing: 0.09rem;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.link{
+color: deeppink;
+text-decoration: gold;
+}
+
+
+@media only screen and (max-width: 850px) {
+  
+   header {
+        grid-template-columns: 1fr;
+    }
+    .heading {
+        padding:2rem 0rem;
+    }
+
+    .img-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-grid div:nth-child(even) {
+        padding: 4rem 0rem;
+    }
+    .img-grid div:nth-child(odd) {
+        padding: 0rem 0rem;
+    }
+    footer{
+       
+        font-size: 17px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    header {
+     width:80%;
+        
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .desc p:nth-child(1){
+        font-size: 15px;
+    }
+    .desc p:nth-child(2){
+        font-size: 11px;
+        line-height:12px;
+  }
+
+    .img-grid {
+        width: 80%;
+    }
+    .role{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    footer{
+       
+        font-size: 13px;
+        
+    }
+
+
+}
